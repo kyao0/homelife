@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   get("/", { :controller => "application", :action => "index" })
+  get("/about_us", { :controller => "application", :action => "about" })
 
   # Routes for the Senior resource:
 
